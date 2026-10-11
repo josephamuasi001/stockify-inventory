@@ -12,7 +12,7 @@ try {
     return $pdo;
 
 } catch (PDOException $e) {
-    echo $e->getMessage();
+    $e->getMessage();
 
 
 }
